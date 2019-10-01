@@ -500,6 +500,9 @@ button:focus {
   text-align: center;
 
 }
+.banner-top-margin{
+  margin-top: 25%;
+}
 
 .home_banner_area .banner_inner .banner_content h2 {
   margin-top: 0px;
