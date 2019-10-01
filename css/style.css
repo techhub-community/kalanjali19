@@ -3773,6 +3773,7 @@ h6 {
 .timer_inner {
   text-align: center;
   overflow: hidden;
+  margin:5px;
 }
 
 .timer_inner h5 {
