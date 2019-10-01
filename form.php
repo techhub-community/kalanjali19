@@ -182,7 +182,7 @@ a {
           <b>Event Selected</b>
           <p>
              <select name="event_selected" size='10' disabled>
-              <option value = "Combo" <?php if($event=="COMBO"){echo'selected="selected"';$event_name="Combo";}?>>Combo Event Offer: ₹800 Off</option>
+              <option value = "Combo" <?php if($event=="COMBO"){echo'selected="selected"';$event_name="Combo";}?>>Combo Event Offer: ₹1500 Off</option>
                <option value = "Classical Vocal Solo" <?php if($event=="CVS"){echo'selected="selected"';$event_name="Classical Vocal Solo";}?>>Classical Vocal Solo</option>
                <option value = "Light Vocal Solo(Non-Filmy)" <?php if($event=="LVSNF"){echo'selected="selected"';$event_name="Light Vocal Solo(Non-Filmy)";}?>>Light Vocal Solo(Non-Filmy)</option>
                <option value = "Light Vocal Solo(Filmy/Kannada/Hindi)" <?php if($event=="LVSF"){echo'selected="selected"';$event_name="Light Vocal Solo(Filmy/Kannda/Hindi)";}?>>Light Vocal Solo(Filmy/Kannda/Hindi)</option>
@@ -193,6 +193,8 @@ a {
                <option value = "Beat Boxing" <?php if($event=="BB"){echo'selected="selected"';$event_name="Beat Boxing";}?>>Beat Boxing</option>
                <option value = "Classical Instrumental(Solo Percussion)" <?php if($event=="CISP"){echo'selected="selected"';$event_name="Classical Instrumental(Solo Percussion)";}?>>Classical Instrumental(Solo Percussion)</option>
                <option value = "Classical Instrumental(Solo Non-Percussion)" <?php if($event=="CISNP"){echo'selected="selected"';$event_name="Classical Instrumental(Solo Non-Percussion)";}?>>Classical Instrumental(Solo Non-Percussion)</option>
+               <option value = "Antakshari (Hindi)" <?php if($event=="AH"){echo'selected="selected"';$event_name="Antakshari (Hindi)";}?>>Antakshari (Hindi)</option>
+               <option value = "Antakshari (Kannada)" <?php if($event=="AK"){echo'selected="selected"';$event_name="Antakshari (Kannada)";}?>>Antakshari (Kannada)</option>
                <option value = "Group Dance" <?php if($event=="GD"){echo'selected="selected"';$event_name="Group Dance";}?>>Group Dance</option>
                <option value = "Solo Dance(Filmy)"<?php if($event=="SDF"){echo'selected="selected"';$event_name="Solo Dance(Filmy)";}?>>Solo Dance(Filmy)</option>
                <option value = "Solo Dance(Classical)" <?php if($event=="SDC"){echo'selected="selected"';$event_name="Solo Dance (Classical)";}?>>Solo Dance(Classical)</option>
@@ -208,12 +210,13 @@ a {
                <option value = "Pubg" <?php if($event=="PUBG"){echo'selected="selected"';$event_name="Pubg";}?>>PUBG</option>
                <option value = "Fashion Show" <?php if($event=="FS"){echo'selected="selected"';$event_name="Fashion Show";}?>>Fashion Show</option>
                <option value = "General Quiz" <?php if($event=="GQ"){echo'selected="selected"';$event_name="General Quiz";}?>>General Quiz</option>
-               <option value = "Women's Throwball" <?php if($event=="WT"){echo'selected="selected"';$event_name="Women's Throwball";}?>>Women's Throwball</option>
+               <option value = "Men's Kabaddi" <?php if($event=="MK"){echo'selected="selected"';$event_name="Men's Kabaddi";}?>>Men's Kabaddi</option>
                <option value = "Men's Football" <?php if($event=="MF"){echo'selected="selected"';$event_name="Men's Football";}?>>Men's Football</option>
                <option value = "Mini Militia" <?php if($event=="MM"){echo'selected="selected"';$event_name="Mini Militia";}?>>Mini Militia</option>
                <option value = "Rangaoli" <?php if($event=="RG"){echo'selected="selected"';$event_name="Rangoli";}?>>Rangoli</option>
                <option value = "Creative Writing" <?php if($event=="CW"){echo'selected="selected"';$event_name="Creative Writing";}?>>Creative Writing</option>
                <option value = "Coding & Debugging" <?php if($event=="CD"){echo'selected="selected"';$event_name="Coding & Debugging";}?>>Coding & Debugging</option>
+               <option value = "Face Painting" <?php if($event=="FP"){echo'selected="selected"';$event_name="Face Painting";}?>>Face Painting</option>
 
              </select>
              <input name="event_selected" type="hidden" value="<?php echo $event_name?>">
