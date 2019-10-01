@@ -1975,7 +1975,7 @@ Google map
 .works-grid.works-hover-w .work-item:hover .work-image:after {
   content: '';
   position: center;
-  background: #72c715;
+  background: #534090;
   border-radius: 50px;
   z-index: -1;
   animation: 2s clockwise infinite; }
