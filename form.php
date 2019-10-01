@@ -169,8 +169,8 @@ a {
     <p>* For any queries regarding registrations, contact: Yash- <b>9513402471</b>, Aditya- <b>8197415228</b></p>
     <center>
     <br>
-    <right><a href=http://bit.ly/2N01GpP target=_blank class=tickets_btn>Click here for Rules & Regulations of the events.</a></right>
-    <left><a href=http://bit.ly/2R4snwH target=_blank class=tickets_btn>Click here for Brochure of Kalanjali.</a></left>
+    <right><a href="http://bit.ly/2myK0uh" target=_blank class=tickets_btn>Click here for Rules & Regulations of the events.</a></right>
+    <left><a href="http://bit.ly/2o4Ovx9" target=_blank class=tickets_btn>Click here for Brochure of Kalanjali.</a></left>
     <br><br>
     </center>
     <hr>
