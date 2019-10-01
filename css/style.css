@@ -666,7 +666,7 @@ button:focus {
 
 .special_area
 {
-    background: url(../img/special.jpg) no-repeat scroll center center;
+    background: url(../img/events/special/special-banner.jpg) no-repeat scroll center center;
 }
 
 .literary_area
@@ -729,7 +729,7 @@ button:focus {
 }
 
 .banner_area .banner_inner .banner_content h2 {
-  color: #fff;
+  color: #147c88;
   font-size: 48px;
   font-family: "Roboto", sans-serif;
   margin-bottom: 0px;
@@ -738,7 +738,7 @@ button:focus {
 
 .banner_area .banner_inner .banner_content .page_link a {
   font-size: 14px;
-  color: #fff;
+  color: #000;
   font-family: "Roboto", sans-serif;
   margin-right: 32px;
   position: relative;
