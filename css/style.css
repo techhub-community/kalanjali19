@@ -3813,6 +3813,8 @@ h6 {
   padding-bottom: 0px;
   position: relative;
   background-color: #f2f7f7;
+  border: 1px solid black;
+  margin: .005px;
 }
 
 .timer_inner .timer .timer__section .timer__number {
