@@ -119,7 +119,7 @@
                     divlink: "#000",
                     divlinkbg: "#F1D600",
                     position: "bottom",
-                    message: "Kalanjali18 is over now. Want to contact developers mail us admin@techhub.pro",
+                    message: "Kalanjali 2019 is over now. Want to contact developers mail us admin@techhub.pro",
                     linkmsg: "",
                     scriptmsg: "Cookie Info Script",
                     moreinfo: "",
