@@ -87,12 +87,16 @@
         -webkit-animation-iteration-count: infinite;
         -webkit-background-size: 4rem 100%;
         font-weight: 700;
-        font-family: Merienda, cursive;
-        line-height: 52.5px;
-        font-style: oblique;
+        font-family: Josefin Sans, cursive;
+        font-size: 34px;
+        line-height: 82.5px;
+        /*font-style: oblique;*/
 
     }
 
+    .shimmer-font-size{
+      font-size: 80px !important;
+    }
     @-webkit-keyframes shimmer {
         0% {
             background-position: -4rem top
