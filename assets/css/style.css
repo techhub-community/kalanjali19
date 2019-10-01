@@ -1513,6 +1513,7 @@ General Styles - Owlcarousel
 
 .footer .copyright {
   margin: 0;
+  color: white;
 }
 
 .footer .footer-social-links {
@@ -1971,7 +1972,7 @@ Google map
   color: #111;
 }
 
-.works-grid.works-hover-w .work-item:hover .work-image:after { 
+.works-grid.works-hover-w .work-item:hover .work-image:after {
   content: '';
   position: center;
   background: #72c715;

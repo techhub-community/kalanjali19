@@ -77,7 +77,7 @@
     .shimmer {
         display: inline-block;
         color: #000;
-        background: #fff -webkit-gradient(linear, 100% 0, 0 0, from(#2de54f), color-stop(.5, #000), to(#2de54f));
+        background: #fff -webkit-gradient(linear, 100% 0, 0 0, from(#4d3b84), color-stop(.5, #000), to(#4d3b84));
         background-position: -4rem top;
         background-repeat: no-repeat;
         -webkit-background-clip: text;
@@ -150,7 +150,8 @@ body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #777777;
+  color: #000000;
+  background-color: #f2f7f7 ;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -262,6 +263,14 @@ button:focus {
   padding: 0px;
   border: 0px;
   border-radius: 0px;
+
+}
+.header_area_black_color {
+  background: #000000f5 !important;
+  padding: 0px;
+  border: 0px;
+  border-radius: 0px;
+
 }
 
 .header_area .navbar .nav .nav-item {
@@ -704,7 +713,7 @@ button:focus {
 
 .meettheteam_area
 {
-    background: url(../img/team.jpg) no-repeat scroll center center;
+    background: url(../img/team/team-banner.jpg) no-repeat scroll center center;
 }
 .eventschedule_area
 {
@@ -2387,7 +2396,7 @@ button:focus {
 }
 
 b, sup, sub, u, del {
-  color: #f8b600;
+  color: #147c88;
 }
 
 h1 {
@@ -3745,7 +3754,7 @@ h6 {
 .event_time_inner {
   max-width: 944px;
   margin: auto;
-  background: #fff;
+  background: #ededf3;
   margin-top: -90px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 8px 30px 0px rgba(153, 153, 153, 0.1);
@@ -3772,6 +3781,7 @@ h6 {
 .timer_inner {
   text-align: center;
   overflow: hidden;
+  margin:5px;
 }
 
 .timer_inner h5 {
@@ -3810,6 +3820,9 @@ h6 {
   padding-top: 20px;
   padding-bottom: 0px;
   position: relative;
+  background-color: #f2f7f7;
+  border: 1px solid black;
+  margin: .005px;
 }
 
 .timer_inner .timer .timer__section .timer__number {
@@ -3825,6 +3838,7 @@ h6 {
   margin-top: 6px;
   color: #777777;
   text-transform: capitalize;
+  background-color: #f3e9d4;
 }
 
 /* End Event Time Area css
@@ -3861,7 +3875,7 @@ h6 {
 }
 
 .event_schedule_inner .nav-tabs li a.active, .event_schedule_inner .nav-tabs li a:hover {
-  background: #6cb61b;
+  background: #4f3c87;
   border: none;
   color: #fff;
 }
@@ -3943,7 +3957,7 @@ h6 {
 /* Team Area css
 ============================================================================================ */
 .team_area {
-  background: #f9f9ff;
+  background: #ededf3;
 }
 
 .team_inner {
@@ -3960,6 +3974,7 @@ h6 {
   position: relative;
   overflow: hidden;
   max-height: 350px;
+  border: 1.4px #4516d4 solid;
 }
 
 .team_item .team_img .hover {
@@ -4168,6 +4183,7 @@ h6 {
 
 .single-footer-widget p {
   margin-bottom: 0px;
+  color:white;
 }
 
 .single-footer-widget .instafeed {
