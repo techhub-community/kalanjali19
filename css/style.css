@@ -263,6 +263,14 @@ button:focus {
   padding: 0px;
   border: 0px;
   border-radius: 0px;
+
+}
+.header_area_black_color {
+  background: #000000f5 !important;
+  padding: 0px;
+  border: 0px;
+  border-radius: 0px;
+
 }
 
 .header_area .navbar .nav .nav-item {
@@ -705,7 +713,7 @@ button:focus {
 
 .meettheteam_area
 {
-    background: url(../img/team.jpg) no-repeat scroll center center;
+    background: url(../img/team/team-banner.jpg) no-repeat scroll center center;
 }
 .eventschedule_area
 {
@@ -3813,6 +3821,8 @@ h6 {
   padding-bottom: 0px;
   position: relative;
   background-color: #f2f7f7;
+  border: 1px solid black;
+  margin: .005px;
 }
 
 .timer_inner .timer .timer__section .timer__number {
