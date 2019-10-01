@@ -77,7 +77,7 @@
     .shimmer {
         display: inline-block;
         color: #000;
-        background: #fff -webkit-gradient(linear, 100% 0, 0 0, from(#2de54f), color-stop(.5, #000), to(#2de54f));
+        background: #fff -webkit-gradient(linear, 100% 0, 0 0, from(#4d3b84), color-stop(.5, #000), to(#4d3b84));
         background-position: -4rem top;
         background-repeat: no-repeat;
         -webkit-background-clip: text;
