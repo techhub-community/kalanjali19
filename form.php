@@ -166,7 +166,8 @@ a {
     <p>* Do <strong>look out for timings</strong> of events in the <b>events schedule</b> section. Incase of participation in multiple events, avoid conflict of two or more events at the time.</p>
     <p>* For the <b>Combo Event </b>, please enter name of all the teams seperated by commas in the name field and please pay the total amount of Rs 3500 at once.</p>
     <p>* On-spot Registrations are also available.
-    <p>* For any queries regarding registrations, contact: Yash- <b>9513402471</b>, Aditya- <b>8197415228</b></p>
+    <p>* For any queries regarding registrations and events, contact: Pratheek - <b>8105976253</b>, Sushma - <b>8762706016</b></p>
+    <p>* For any queries regarding filling of registration form , contact: Aditya - <b>8197415228</b>, Deep - <b>9982168317</b></p>
     <center>
     <br>
     <right><a href="http://bit.ly/2myK0uh" target=_blank class=tickets_btn>Click here for Rules & Regulations of the events.</a></right>
