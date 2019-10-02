@@ -38,8 +38,8 @@ if(isset($_POST)){
 
          <style>
         .round-img{ border-radius: 50%; }
-        
-        
+
+
 
 /* Add padding to containers */
 .container {
@@ -98,7 +98,7 @@ a {
     </style>
     </head>
     <body>
-        
+
         <!--================Header Menu Area =================-->
         <header class=header_area>
         <div class=main_menu>
@@ -121,8 +121,8 @@ a {
                                                         <li class=nav-item><a href=literary.html class=nav-link>Literary Events</a>
                                                             <li class=nav-item><a href=finearts.html class=nav-link>Fine Arts</a>
                                                             <li class=nav-item><a href=gaming.html class=nav-link>Gaming Events</a>
-                                                           
-                                                                    
+
+
                                                                         <li class=nav-item><a href=other.html class=nav-link>Other Events</a>
                                                                         <li class=nav-item><a href=sports.html class=nav-link>Sports Events</a></ul>
                                             <li class=nav-item><a href=gallery.html class=nav-link>Gallery</a>
@@ -135,7 +135,7 @@ a {
         </div>
     </header>
         <!--================Header Menu Area =================-->
-        
+
         <!--================Home Banner Area =================-->
         <section class="banner_area">
             <div class="banner_inner d-flex align-items-center">
@@ -152,10 +152,10 @@ a {
             </div>
         </section>
         <!--================End Home Banner Area =================-->
-        
+
         <!--================Event Schedule Area =================-->
         <!--================End Event Schedule Area =================-->
-        
+
   		<form id="register_form">
   <div class="container">
     <h1 style="font-variant: small-caps; color:#dd4618;">important guidelines for event registration:-</h1>
@@ -231,7 +231,7 @@ a {
 
     <label for="email"><b>E-Mail Address</b></label>
     <input type="text" placeholder="Enter Your E-Mail Address" name="email" required>
-    
+
      <label for="College"><b>College</b></label>
     <input type="text" placeholder="Enter Your Full College Name" name="college" required>
     <br>
@@ -249,17 +249,17 @@ a {
        <br>
        <label for="txn_id"><b>UPI Reference Number / ID</b></label>
     <input type="text" placeholder="Enter Transaction Id" name="txn_id" required>
-    
-    
+
+
     <label for="coord_id"><b> Co-ordinator ID</b> (Leave it as 'NIL' if you're not an assigned co-ordinator for Kalanjali)</label>
     <input type="text" placeholder="Enter Co-ordinator ID" name="coord_id" value="NIL" required>
-    
+
 
     <div class="g-recaptcha" data-sitekey="6LfhvHIUAAAAAMuwN4rxOmh9MOULlkZMwQCCu3Z8"></div>
 
 
   </div>
-</form> 
+</form>
 <hr>
 <div class="container">
 <center><p><strong> Please Re-Verify Your Event And Transaction ID Data Before Final Submission</strong> </p>
@@ -282,11 +282,11 @@ a {
         <div class=scroll-up><a href=#totop><i class="fa fa-angle-double-up"></i></a></div>
     </footer>
 		<!--================ End footer Area  =================-->
-        
-        
-        
-        
-        
+
+
+
+
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/jquery-3.2.1.min.js"></script>
@@ -312,7 +312,7 @@ a {
       async function sendData(){
         let apiForm = new FormData(registerForm);;
         let result = '';
-        await fetch("http://206.189.133.171/",{method:"post",body:apiForm,mode:'cors'})
+        await fetch("http://52.66.120.23/",{method:"post",body:apiForm,mode:'cors'})
         .then((response) => (response.json()))
         .then((data) => {result = data });
         window.alert(result.message);
