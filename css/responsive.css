@@ -41,9 +41,9 @@
         margin-bottom: 23px;
     }
 	.header_area .navbar {
-		background-image: -moz-linear-gradient( 0deg, rgb(28,30,26) 0%, rgb(37,31,47) 100%);
-		background-image: -webkit-linear-gradient( 0deg, rgb(28,30,26) 0%, rgb(37,31,47) 100%);
-		background-image: -ms-linear-gradient( 0deg, rgb(28,30,26) 0%, rgb(37,31,47) 100%);
+		background-image: -moz-linear-gradient( 0deg, rgb(0,3,3) 0%, rgb(7,8,7) 100%);
+		background-image: -webkit-linear-gradient( 0deg, rgb(0,3,3) 0%, rgb(7,8,7) 100%);
+		background-image: -ms-linear-gradient( 0deg, rgb(0,3,3) 0%, rgb(7,8,7) 100%);
 	}
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
 		opacity: 1;
@@ -135,7 +135,7 @@
     }
 	/* End Blog page Area css
 	============================================================================================ */
-	
+
 	/* Contact Page Area css
 	============================================================================================ */
 	.contact_info{
@@ -174,7 +174,7 @@
 	}
 	.event_time_area{
 		padding-top: 20px;
-	}	
+	}
 	.welcome_text{
 		margin-top: 30px;
 	}
@@ -229,7 +229,7 @@
 	============================================================================================ */
 }
 @media (max-width:600px){
-	
+
 }
 @media (max-width:575px){
 	.top_menu {
@@ -282,7 +282,7 @@
 	}
 	/* End Elements Area css
 	============================================================================================ */
-	
+
 	/* Blog Page Area css
 	============================================================================================ */
 	.blog_details h2 {
@@ -315,7 +315,7 @@
 	.single-footer-widget .sub-btn {
 		right: 0px;
 	}
-	
+
 }
 
 @media (max-width:480px){
@@ -326,7 +326,7 @@
 	}
 	/* End Main Menu Area css
 	============================================================================================ */
-	
+
 	/* Home Banner Area css
 	============================================================================================ */
     .home_banner_area .banner_inner .banner_content {
@@ -349,10 +349,10 @@
 	.comments-area .thumb {
 		margin-right: 10px;
 	}
-	
+
 	/* End Blog Page Area css
 	============================================================================================ */
-	
+
 	.event_schedule_inner .nav-tabs li a {
 		padding: 0px 22px;
 		line-height: 65px;
@@ -366,5 +366,5 @@
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
-	
+
 }
