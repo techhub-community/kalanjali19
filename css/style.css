@@ -409,9 +409,9 @@ button:focus {
   top: -70px;
   left: 0;
   right: 0;
-  background-image: -moz-linear-gradient(0deg, #1c1e1a 0%, #191313 100%);
-  background-image: -webkit-linear-gradient(0deg, #1c1e1a 0%, #191313 100%);
-  background-image: -ms-linear-gradient(0deg, #1c1e1a 0%, #191313 100%);
+  background-image: -moz-linear-gradient(0deg, #050505 0%, #191313 100%);
+  background-image: -webkit-linear-gradient(0deg, #050505 0%, #191313 100%);
+  background-image: -ms-linear-gradient(0deg, #050505 0%, #191313 100%);
   -webkit-transform: translateY(70px);
   -ms-transform: translateY(70px);
   transform: translateY(70px);
@@ -3850,9 +3850,9 @@ h6 {
 ============================================================================================ */
 .event_schedule_inner .nav-tabs {
   border: none;
-  background-image: -moz-linear-gradient(0deg, #1c1e1a 0%, #191313 100%);
-  background-image: -webkit-linear-gradient(0deg, #1c1e1a 0%, #191313 100%);
-  background-image: -ms-linear-gradient(0deg, #1c1e1a 0%, #191313 100%);
+  background-image: -moz-linear-gradient(0deg, #050505 0%, #191313 100%);
+  background-image: -webkit-linear-gradient(0deg, #050505 0%, #191313 100%);
+  background-image: -ms-linear-gradient(0deg, #050505 0%, #191313 100%);
   border-radius: 5px;
   overflow: hidden;
 }
@@ -4145,9 +4145,9 @@ h6 {
 .price_item .price_btn {
   display: block;
   text-align: center;
-  background-image: -moz-linear-gradient(0deg, #1c1e1a 0%, #191313 100%);
-  background-image: -webkit-linear-gradient(0deg, #1c1e1a 0%, #191313 100%);
-  background-image: -ms-linear-gradient(0deg, #1c1e1a 0%, #191313 100%);
+  background-image: -moz-linear-gradient(0deg, #050505 0%, #191313 100%);
+  background-image: -webkit-linear-gradient(0deg, #050505 0%, #191313 100%);
+  background-image: -ms-linear-gradient(0deg, #050505 0%, #191313 100%);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   line-height: 50px;
