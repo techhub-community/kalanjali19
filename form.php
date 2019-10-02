@@ -263,7 +263,7 @@ a {
 <hr>
 <div class="container">
 <center><p><strong> Please Re-Verify Your Event And Transaction ID Data Before Final Submission</strong> </p>
-    <h6 id="submit-response-text" style="display: none; color: green;" >Submiting your response............ </h6>
+    <h6 id="submit-response-text" style="display: none; color: green;" >Submiting your response.... Please wait for confirmation. </h6>
     <button name="send_data_button" id="submit_btn1" class="registerbtn">Submit</button></center>
   </div>
  <hr class=divider-d>
