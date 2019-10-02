@@ -38,10 +38,14 @@ if(isset($_POST)){
 
          <style>
         .round-img{ border-radius: 50%; }
+
+
+
 /* Add padding to containers */
 .container {
   padding: 16px;
 }
+
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
@@ -51,15 +55,18 @@ input[type=text], input[type=password] {
   border: none;
   background: #f1f1f1;
 }
+
 input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
+
 /* Overwrite default styles of hr */
 hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
+
 /* Set a style for the submit/register button */
 .registerbtn {
   background-color: #4CAF50;
@@ -72,13 +79,17 @@ hr {
   border: none;
   opacity: 0.9;
 }
+
+
 .registerbtn:hover {
   opacity:1;
 }
+
 /* Add a blue text color to links */
 a {
   color: dodgerblue;
 }
+
 /* Set a grey background color and center the text of the "sign in" section */
 .signin {
   background-color: #f1f1f1;
@@ -276,3 +287,42 @@ a {
 
 
 
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/stellar.js"></script>
+        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
+        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+        <script src="vendors/isotope/isotope-min.js"></script>
+        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="vendors/flipclock/timer.js"></script>
+        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
+        <script src="vendors/counter-up/jquery.counterup.js"></script>
+        <script src="js/mail-script.js"></script>
+        <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script src="js/gmaps.min.js"></script>
+        <script src="js/theme.js"></script>
+        <script type="text/javascript">
+          let registerForm = document.querySelector("#register_form");
+          let submit_text = document.getElementById("submit-response-text");
+
+      async function sendData(){
+        let apiForm = new FormData(registerForm);;
+        let result = '';
+        submit_text.style.display = 'block';
+        await fetch("http://52.66.120.23/",{method:"post",body:apiForm,mode:'cors'})
+        .then((response) => (response.json()))
+        .then((data) => {result = data });
+        submit_text.style.display= 'none';
+        window.alert(result.message);
+      }
+      document.querySelector("#submit_btn1").addEventListener("click",sendData);
+        </script>
+    </body>
+</html>
