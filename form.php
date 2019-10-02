@@ -172,7 +172,7 @@ a {
           <b>Event Selected</b>
           <p>
              <select name="event_selected" size='10' disabled>
-              <option value = "Combo" <?php if($event=="COMBO"){echo'selected="selected"';$event_name="Combo";}?>>Combo Event Offer: ₹800 Off</option>
+              <option value = "Combo" <?php if($event=="COMBO"){echo'selected="selected"';$event_name="Combo";}?>>Combo Event Offer: ₹1500 Off</option>
                <option value = "Classical Vocal Solo" <?php if($event=="CVS"){echo'selected="selected"';$event_name="Classical Vocal Solo";}?>>Classical Vocal Solo</option>
                <option value = "Light Vocal Solo(Non-Filmy)" <?php if($event=="LVSNF"){echo'selected="selected"';$event_name="Light Vocal Solo(Non-Filmy)";}?>>Light Vocal Solo(Non-Filmy)</option>
                <option value = "Light Vocal Solo(Filmy/Kannada/Hindi)" <?php if($event=="LVSF"){echo'selected="selected"';$event_name="Light Vocal Solo(Filmy/Kannda/Hindi)";}?>>Light Vocal Solo(Filmy/Kannda/Hindi)</option>
