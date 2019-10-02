@@ -171,7 +171,7 @@ a {
     <center>
     <br>
     <right><a href="http://bit.ly/2myK0uh" target=_blank class=tickets_btn>Click here for Rules & Regulations of the events.</a></right>
-    <left><a href="http://bit.ly/2o4Ovx9" target=_blank class=tickets_btn>Click here for Brochure of Kalanjali.</a></left>
+    <left><a href="http://bit.ly/2phQC0Y" target=_blank class=tickets_btn>Click here for Brochure of Kalanjali.</a></left>
     <br><br>
     </center>
     <hr>
