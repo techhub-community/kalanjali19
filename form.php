@@ -193,7 +193,7 @@ a {
                <option value = "Battle Of Bands" <?php if($event=="BOB"){echo'selected="selected"';$event_name="Battle Of Bands";}?>>Battle Of Bands</option>
                <option value = "Beat Boxing" <?php if($event=="BB"){echo'selected="selected"';$event_name="Beat Boxing";}?>>Beat Boxing</option>
                <option value = "Antakshari (Hindi)" <?php if($event=="AH"){echo'selected="selected"';$event_name="Antakshari (Hindi)";}?>>Antakshari (Hindi)</option>
-               <option value = "Antakshari (Kannada)" <?php if($event=="AH"){echo'selected="selected"';$event_name="Antakshari (Kannada)";}?>>Antakshari (Kannada)</option>
+               <option value = "Antakshari (Kannada)" <?php if($event=="AK"){echo'selected="selected"';$event_name="Antakshari (Kannada)";}?>>Antakshari (Kannada)</option>
                <option value = "Classical Instrumental(Solo Percussion)" <?php if($event=="CISP"){echo'selected="selected"';$event_name="Classical Instrumental(Solo Percussion)";}?>>Classical Instrumental(Solo Percussion)</option>
                <option value = "Classical Instrumental(Solo Non-Percussion)" <?php if($event=="CISNP"){echo'selected="selected"';$event_name="Classical Instrumental(Solo Non-Percussion)";}?>>Classical Instrumental(Solo Non-Percussion)</option>
                <option value = "Group Dance" <?php if($event=="GD"){echo'selected="selected"';$event_name="Group Dance";}?>>Group Dance</option>
