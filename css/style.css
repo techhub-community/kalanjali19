@@ -1005,9 +1005,9 @@ button:focus {
 }
 
 .categories_post:hover .categories_details {
-  background-image: -moz-linear-gradient(0deg, rgba(65, 135, 20, 0.9) 0%, rgba(84, 193, 25, 0.8) 100%);
-  background-image: -webkit-linear-gradient(0deg, rgba(65, 135, 20, 0.9) 0%, rgba(84, 193, 25, 0.8) 100%);
-  background-image: -ms-linear-gradient(0deg, rgba(65, 135, 20, 0.9) 0%, rgba(84, 193, 25, 0.8) 100%);
+  background-image: -moz-linear-gradient(0deg, rgba(83, 64, 144,0.9) 0%,rgba(103, 74, 199,0.8) 100%);
+  background-image: -webkit-linear-gradient(0deg, rgba(83, 64, 144,0.9) 0%,rgba(103, 74, 199,0.8) 100%);
+  background-image: -ms-linear-gradient(0deg, rgba(83, 64, 144,0.9) 0%,rgba(103, 74, 199,0.8) 100%);
   background-color: transparent;
 }
 
