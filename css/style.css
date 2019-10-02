@@ -406,7 +406,7 @@ button:focus {
 .header_area.navbar_fixed .main_menu {
   position: fixed;
   width: 100%;
-  top: -70px;
+  top: -71px;
   left: 0;
   right: 0;
   background-image: -moz-linear-gradient(0deg, #050505 0%, #191313 100%);
