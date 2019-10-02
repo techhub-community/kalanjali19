@@ -545,7 +545,7 @@ button:focus {
 }
 
 .blog_banner .banner_inner .overlay {
-  background: url(../img/gallerybanner.jpg) no-repeat scroll center center;
+  background: url(../img/gallery/gallery-banner.jpg) no-repeat scroll center center;
   opacity: .5;
   height: 125%;
   position: absolute;
