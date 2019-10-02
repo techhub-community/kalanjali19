@@ -38,8 +38,8 @@ if(isset($_POST)){
 
          <style>
         .round-img{ border-radius: 50%; }
-
-
+        
+        
 
 /* Add padding to containers */
 .container {
@@ -98,11 +98,11 @@ a {
     </style>
     </head>
     <body>
-
+        
         <!--================Header Menu Area =================-->
         <header class=header_area>
         <div class=main_menu>
-            <nav class="navbar navbar-expand-lg navbar-light header_area_black_color">
+            <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container box_1620">
                     <a href=http://www.sirmvit.edu target="_blank" class="logo_h navbar-brand"><img alt=Logo class=round-img src=img/collegelogo.png height=65 width=65></a>
                     <button aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation" class=navbar-toggler data-target=#navbarSupportedContent data-toggle=collapse type=button><span class=icon-bar></span> <span class=icon-bar></span> <span class=icon-bar></span></button>
@@ -121,8 +121,8 @@ a {
                                                         <li class=nav-item><a href=literary.html class=nav-link>Literary Events</a>
                                                             <li class=nav-item><a href=finearts.html class=nav-link>Fine Arts</a>
                                                             <li class=nav-item><a href=gaming.html class=nav-link>Gaming Events</a>
-
-
+                                                           
+                                                                    
                                                                         <li class=nav-item><a href=other.html class=nav-link>Other Events</a>
                                                                         <li class=nav-item><a href=sports.html class=nav-link>Sports Events</a></ul>
                                             <li class=nav-item><a href=gallery.html class=nav-link>Gallery</a>
@@ -135,28 +135,28 @@ a {
         </div>
     </header>
         <!--================Header Menu Area =================-->
-
+        
         <!--================Home Banner Area =================-->
         <section class="banner_area">
             <div class="banner_inner d-flex align-items-center">
-            	<div class="overlay form_area bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
-				<div class="container">
-					<div class="banner_content text-center">
-						<div class="page_link">
-							<a href="index.html">Home</a>
-							<a href="form.html">Registration Form</a>
-						</div>
-						<h2>Registration</h2>
-					</div>
-				</div>
+              <div class="overlay form_area bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+        <div class="container">
+          <div class="banner_content text-center">
+            <div class="page_link">
+              <a href="index.html">Home</a>
+              <a href="form.html">Registration Form</a>
+            </div>
+            <h2>Registration</h2>
+          </div>
+        </div>
             </div>
         </section>
         <!--================End Home Banner Area =================-->
-
+        
         <!--================Event Schedule Area =================-->
         <!--================End Event Schedule Area =================-->
-
-  		<form id="register_form">
+        
+      <form id="register_form">
   <div class="container">
     <h1 style="font-variant: small-caps; color:#dd4618;">important guidelines for event registration:-</h1>
     <p>* Please pay the exact required amount for registration to the given UPI ID using any of your favorite payment app and pass the <b> CORRECT TRANSACTION ID </b> in the registration form after your successful payment.</p>
@@ -166,12 +166,12 @@ a {
     <p>* Do <strong>look out for timings</strong> of events in the <b>events schedule</b> section. Incase of participation in multiple events, avoid conflict of two or more events at the time.</p>
     <p>* For the <b>Combo Event </b>, please enter name of all the teams seperated by commas in the name field and please pay the total amount of Rs 3500 at once.</p>
     <p>* On-spot Registrations are also available.
-    <p>* For any queries regarding registrations and events, contact: Pratheek - <b>8105976253</b>, Sushma - <b>8762706016</b></p>
-    <p>* For any queries regarding filling of registration form , contact: Aditya - <b>8197415228</b>, Deep - <b>9982168317</b></p>
+    <p>* For any queries regarding registrations and events, contact: Sushma- <b>8762706016</b>, Pratheek- <b>8105976253</b></p>
+    <p>* For any queries regarding form filling/payments/trasaction ids, contact: Deep- <b>+91 99821 68317</b>, Aditya- <b>+91 81974 15228</b></p>
     <center>
     <br>
     <right><a href="http://bit.ly/2myK0uh" target=_blank class=tickets_btn>Click here for Rules & Regulations of the events.</a></right>
-    <left><a href="http://bit.ly/2phQC0Y" target=_blank class=tickets_btn>Click here for Brochure of Kalanjali.</a></left>
+    <left><a href="http://bit.ly/2o4Ovx9" target=_blank class=tickets_btn>Click here for Brochure of Kalanjali.</a></left>
     <br><br>
     </center>
     <hr>
@@ -183,7 +183,7 @@ a {
           <b>Event Selected</b>
           <p>
              <select name="event_selected" size='10' disabled>
-              <option value = "Combo" <?php if($event=="COMBO"){echo'selected="selected"';$event_name="Combo";}?>>Combo Event Offer: ₹1500 Off</option>
+              <option value = "Combo" <?php if($event=="COMBO"){echo'selected="selected"';$event_name="Combo";}?>>Combo Event Offer: ₹800 Off</option>
                <option value = "Classical Vocal Solo" <?php if($event=="CVS"){echo'selected="selected"';$event_name="Classical Vocal Solo";}?>>Classical Vocal Solo</option>
                <option value = "Light Vocal Solo(Non-Filmy)" <?php if($event=="LVSNF"){echo'selected="selected"';$event_name="Light Vocal Solo(Non-Filmy)";}?>>Light Vocal Solo(Non-Filmy)</option>
                <option value = "Light Vocal Solo(Filmy/Kannada/Hindi)" <?php if($event=="LVSF"){echo'selected="selected"';$event_name="Light Vocal Solo(Filmy/Kannda/Hindi)";}?>>Light Vocal Solo(Filmy/Kannda/Hindi)</option>
@@ -192,10 +192,10 @@ a {
                <option value = "Group Song(Western)" <?php if($event=="GSW"){echo'selected="selected"';$event_name="Group Song(Western)";}?>>Group Song(Western)</option>
                <option value = "Battle Of Bands" <?php if($event=="BOB"){echo'selected="selected"';$event_name="Battle Of Bands";}?>>Battle Of Bands</option>
                <option value = "Beat Boxing" <?php if($event=="BB"){echo'selected="selected"';$event_name="Beat Boxing";}?>>Beat Boxing</option>
+               <option value = "Antakshari (Hindi)" <?php if($event=="AH"){echo'selected="selected"';$event_name="Antakshari (Hindi)";}?>>Antakshari (Hindi)</option>
+               <option value = "Antakshari (Kannada)" <?php if($event=="AH"){echo'selected="selected"';$event_name="Antakshari (Kannada)";}?>>Antakshari (Kannada)</option>
                <option value = "Classical Instrumental(Solo Percussion)" <?php if($event=="CISP"){echo'selected="selected"';$event_name="Classical Instrumental(Solo Percussion)";}?>>Classical Instrumental(Solo Percussion)</option>
                <option value = "Classical Instrumental(Solo Non-Percussion)" <?php if($event=="CISNP"){echo'selected="selected"';$event_name="Classical Instrumental(Solo Non-Percussion)";}?>>Classical Instrumental(Solo Non-Percussion)</option>
-               <option value = "Antakshari (Hindi)" <?php if($event=="AH"){echo'selected="selected"';$event_name="Antakshari (Hindi)";}?>>Antakshari (Hindi)</option>
-               <option value = "Antakshari (Kannada)" <?php if($event=="AK"){echo'selected="selected"';$event_name="Antakshari (Kannada)";}?>>Antakshari (Kannada)</option>
                <option value = "Group Dance" <?php if($event=="GD"){echo'selected="selected"';$event_name="Group Dance";}?>>Group Dance</option>
                <option value = "Solo Dance(Filmy)"<?php if($event=="SDF"){echo'selected="selected"';$event_name="Solo Dance(Filmy)";}?>>Solo Dance(Filmy)</option>
                <option value = "Solo Dance(Classical)" <?php if($event=="SDC"){echo'selected="selected"';$event_name="Solo Dance (Classical)";}?>>Solo Dance(Classical)</option>
@@ -215,9 +215,9 @@ a {
                <option value = "Men's Football" <?php if($event=="MF"){echo'selected="selected"';$event_name="Men's Football";}?>>Men's Football</option>
                <option value = "Mini Militia" <?php if($event=="MM"){echo'selected="selected"';$event_name="Mini Militia";}?>>Mini Militia</option>
                <option value = "Rangaoli" <?php if($event=="RG"){echo'selected="selected"';$event_name="Rangoli";}?>>Rangoli</option>
+               <option value = "Face Painting" <?php if($event=="FP"){echo'selected="selected"';$event_name="Face Painting";}?>>Face Painting</option>
                <option value = "Creative Writing" <?php if($event=="CW"){echo'selected="selected"';$event_name="Creative Writing";}?>>Creative Writing</option>
                <option value = "Coding & Debugging" <?php if($event=="CD"){echo'selected="selected"';$event_name="Coding & Debugging";}?>>Coding & Debugging</option>
-               <option value = "Face Painting" <?php if($event=="FP"){echo'selected="selected"';$event_name="Face Painting";}?>>Face Painting</option>
 
              </select>
              <input name="event_selected" type="hidden" value="<?php echo $event_name?>">
@@ -231,7 +231,7 @@ a {
 
     <label for="email"><b>E-Mail Address</b></label>
     <input type="text" placeholder="Enter Your E-Mail Address" name="email" required>
-
+    
      <label for="College"><b>College</b></label>
     <input type="text" placeholder="Enter Your Full College Name" name="college" required>
     <br>
@@ -249,20 +249,21 @@ a {
        <br>
        <label for="txn_id"><b>UPI Reference Number / ID</b></label>
     <input type="text" placeholder="Enter Transaction Id" name="txn_id" required>
-
-
+    
+    
     <label for="coord_id"><b> Co-ordinator ID</b> (Leave it as 'NIL' if you're not an assigned co-ordinator for Kalanjali)</label>
     <input type="text" placeholder="Enter Co-ordinator ID" name="coord_id" value="NIL" required>
-
+    
 
     <div class="g-recaptcha" data-sitekey="6LfhvHIUAAAAAMuwN4rxOmh9MOULlkZMwQCCu3Z8"></div>
 
 
   </div>
-</form>
+</form> 
 <hr>
 <div class="container">
 <center><p><strong> Please Re-Verify Your Event And Transaction ID Data Before Final Submission</strong> </p>
+    <h6 id="submit-response-text" style="display: none; color: green;" >Submiting your response............ </h6>
     <button name="send_data_button" id="submit_btn1" class="registerbtn">Submit</button></center>
   </div>
  <hr class=divider-d>
@@ -273,20 +274,20 @@ a {
                     <p class="font-alt copyright">©2019 <a href=http://www.sirmvit.edu target="_blank">Sir M. Visvesvaraya Institute Of Technology</a> Bangalore</div>
                 <div class=col-sm-5>
                     <div class=footer-social-links>
-                        <a href=#><a href="http://bit.ly/2n07zMP" target="_blank"><i class="fa fa-lg fa-instagram"></i></a> <a href=https://twitter.com/sirmvitinfo target="_blank"><i class="fa fa-lg fa-twitter"></i></a> <a href="http://bit.ly/2nRBNSx" target="_blank"><i class="fa fa-facebook fa-lg"></i></a> <a href=https://www.youtube.com/channel/UCpzAkQfienHE2b_LzWihKkg target="_blank"><i class="fa fa-lg fa-youtube"></i></a>
-<a href="http://bit.ly/2nTNPuv" target="_blank"><i class="fa fa-whatsapp fa-lg"></i></a>
+                        <a href=#><a href="http://cli.re/gE5bpD" target="_blank"><i class="fa fa-lg fa-instagram"></i></a> <a href=https://twitter.com/sirmvitinfo target="_blank"><i class="fa fa-lg fa-twitter"></i></a> <a href="http://cli.re/Lo3Km9" target="_blank"><i class="fa fa-facebook fa-lg"></i></a> <a href=https://www.youtube.com/channel/UCpzAkQfienHE2b_LzWihKkg target="_blank"><i class="fa fa-lg fa-youtube"></i></a> <a href=https://plus.google.com/100107526082178352786 target="_blank"><i class="fa fa-lg fa-google-plus"></i></a></a>
+<a href="http://bit.ly/2xIB8oe" target="_blank"><i class="fa fa-whatsapp fa-lg"></i></a>
                     </div>
                 </div>
             </div>
         </div>
         <div class=scroll-up><a href=#totop><i class="fa fa-angle-double-up"></i></a></div>
     </footer>
-		<!--================ End footer Area  =================-->
-
-
-
-
-
+    <!--================ End footer Area  =================-->
+        
+        
+        
+        
+        
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="js/jquery-3.2.1.min.js"></script>
@@ -308,16 +309,20 @@ a {
         <script src="js/gmaps.min.js"></script>
         <script src="js/theme.js"></script>
         <script type="text/javascript">
-        	let registerForm = document.querySelector("#register_form")
+          let registerForm = document.querySelector("#register_form");
+          let submit_text = document.getElementById("submit-response-text");
+          
       async function sendData(){
         let apiForm = new FormData(registerForm);;
         let result = '';
+        submit_text.style.display = 'block';
         await fetch("http://52.66.120.23/",{method:"post",body:apiForm,mode:'cors'})
         .then((response) => (response.json()))
         .then((data) => {result = data });
+        submit_text.style.display= 'none';
         window.alert(result.message);
       }
-      document.querySelector("#submit_btn1").addEventListener("click",sendData)
+      document.querySelector("#submit_btn1").addEventListener("click",sendData);
         </script>
     </body>
 </html>
