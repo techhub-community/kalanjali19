@@ -678,12 +678,12 @@ button:focus {
 }
 .game_area
 {
-    background: url(../img/game.jpeg) no-repeat scroll center center;
+    background: url(../img/events/gaming/gaming-banner.jpg) no-repeat scroll center center;
 }
 
 .musical_area
 {
-    background: url(../img/musical.jpg) no-repeat scroll center center;
+    background: url(../img/events/musical/musical-banner.jpg) no-repeat scroll center center;
 }
 .finearts_area
 {
