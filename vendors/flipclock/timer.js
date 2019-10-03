@@ -1,7 +1,7 @@
 var today = new Date();
 
 var timer = function() {};
-timer.countdownDate = new Date('October 18, 2019 10:00:00');
+timer.countdownDate = new Date('October 18, 2019 00:23:00');
 
 // set date to 10 days in the future for testing purposes
 timer.countdownDate.setDate( timer.countdownDate.getDate() );
@@ -37,6 +37,7 @@ timer.getTimes = function() {
   timer.times.minute = timer.times.second * 60;
   timer.times.hour = timer.times.minute * 60;
   timer.times.day = timer.times.hour * 24;
+
 }
 
 /*
@@ -49,7 +50,10 @@ timer.update = function() {
 
   timer.currentDate = new Date();
   timer.difference = timer.countdownDate - timer.currentDate;
-
+  if(timer.difference<=0)
+  {
+    timer.difference=0;
+  }
   timer.days.innerHTML = timer.getTimeRemaining(timer.times.day, 1);
   timer.hours.innerHTML = timer.getTimeRemaining(timer.times.hour, 24);
   timer.minutes.innerHTML = timer.getTimeRemaining(timer.times.minute, 60);
