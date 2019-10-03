@@ -388,7 +388,7 @@ button:focus {
 
 .header_area .navbar .tickets_btn {
   margin-left: 195px;
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .header_area .navbar .search {
@@ -3718,6 +3718,7 @@ h6 {
   background-image: linear-gradient(to right, #534090 0%, #191313 51%, #534090 100%);
   background-size: 200% auto;
   padding: 0px 28px;
+  margin-top: 5px ;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 13px;
